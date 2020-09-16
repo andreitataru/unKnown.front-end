@@ -179,7 +179,7 @@ export default class App extends Component {
   }
 
   updateDiscovery = (value) => {
-    fetch('http://8d71766e66bc.ngrok.io/api/auth/updateDiscovery', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/auth/updateDiscovery', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
@@ -199,7 +199,7 @@ export default class App extends Component {
   }
 
   GetUserInfo = () => {
-    fetch('http://8d71766e66bc.ngrok.io/api/auth/me', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/auth/me', {
       method: 'GET',
       headers: {
         Accept: 'application/json',
@@ -243,7 +243,7 @@ export default class App extends Component {
   }
 
   deleteAcc() {
-    fetch('http://8d71766e66bc.ngrok.io/api/auth/deleteUser', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/auth/deleteUser', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
@@ -261,7 +261,7 @@ export default class App extends Component {
   }
 
   LogOut = () => {
-    fetch('http://8d71766e66bc.ngrok.io/api/auth/logout', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/auth/logout', {
       method: 'POST',
       headers: {
         'Authorization': 'Bearer ' + this.state.token

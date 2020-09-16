@@ -120,7 +120,7 @@ class AppHome extends React.Component {
   }
 
   FbLogin = () => {
-    fetch('http://8d71766e66bc.ngrok.io/api/auth/signUpFB', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/auth/signUpFB', {
       method: 'POST',
       headers: {
         Accept: 'application/json',

@@ -147,7 +147,7 @@ export default class App extends Component {
     this.setState({ isLoading: true });
 
     if (this.state.canShow == false) {
-      fetch('http://8d71766e66bc.ngrok.io/api/auth/SendCodeForgot', {
+      fetch('http://e1f63cbbbe63.ngrok.io/api/auth/SendCodeForgot', {
         method: 'POST',
         headers: {
           Accept: 'application/json',
@@ -190,7 +190,7 @@ export default class App extends Component {
     else {
 
       if (((this.state.password.length >= 6 && this.state.password.length <= 12))) {
-        fetch('http://8d71766e66bc.ngrok.io/api/auth/changePasswordF', {
+        fetch('http://e1f63cbbbe63.ngrok.io/api/auth/changePasswordF', {
           method: 'POST',
           headers: {
             Accept: 'application/json',

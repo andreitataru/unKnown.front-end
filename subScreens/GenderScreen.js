@@ -107,7 +107,7 @@ export default class App extends Component {
     const { navigate } = this.props.navigation;
     if (!this.state.genderForSv == '') {
       this.setState({ isLoading: true }, function () {
-        fetch('http://8d71766e66bc.ngrok.io/api/auth/updateGender', {
+        fetch('http://e1f63cbbbe63.ngrok.io/api/auth/updateGender', {
           method: 'POST',
           headers: {
             Accept: 'application/json',

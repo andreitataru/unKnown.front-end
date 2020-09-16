@@ -336,7 +336,7 @@ export default class App extends Component {
   imageSvUpload(base64Data) {
     const { navigate } = this.props.navigation;
     if (!base64Data == '') {
-      fetch('http://8d71766e66bc.ngrok.io/api/auth/updatePicture', {
+      fetch('http://e1f63cbbbe63.ngrok.io/api/auth/updatePicture', {
         method: 'POST',
         headers: {
           Accept: 'application/json',
@@ -362,7 +362,7 @@ export default class App extends Component {
 
 
   uploadInfo = () => {
-    fetch('http://8d71766e66bc.ngrok.io/api/auth/updateInfo', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/auth/updateInfo', {
       method: 'POST',
       headers: {
         Accept: 'application/json',

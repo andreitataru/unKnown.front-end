@@ -63,7 +63,7 @@ export default class ChatScreen extends React.Component {
   }
 
   deleteMatch(idMatch, targetId) {
-    fetch('http://8d71766e66bc.ngrok.io/api/auth/DeleteMatch', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/auth/DeleteMatch', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
@@ -105,7 +105,7 @@ export default class ChatScreen extends React.Component {
 
       const value = await AsyncStorage.getItem('@MySuperStore:' + key);
       this.setState({ token: value }, function () {
-        fetch('http://8d71766e66bc.ngrok.io/api/auth/getMatches', {
+        fetch('http://e1f63cbbbe63.ngrok.io/api/auth/getMatches', {
           method: 'GET',
           headers: {
             Accept: 'application/json',
@@ -133,7 +133,7 @@ export default class ChatScreen extends React.Component {
   }
 
   getMatches() {
-    fetch('http://8d71766e66bc.ngrok.io/api/auth/getMatches', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/auth/getMatches', {
       method: 'GET',
       headers: {
         Accept: 'application/json',
@@ -163,7 +163,7 @@ export default class ChatScreen extends React.Component {
   }
 
   getMyId() {
-    fetch('http://8d71766e66bc.ngrok.io/api/auth/GetMyId', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/auth/GetMyId', {
       method: 'GET',
       headers: {
         Accept: 'application/json',

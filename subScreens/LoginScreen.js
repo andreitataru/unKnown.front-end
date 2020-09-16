@@ -171,7 +171,7 @@ export default class App extends Component {
     const { navigate } = this.props.navigation;
     this.setState({ isLoading: true });
 
-    fetch('http://8d71766e66bc.ngrok.io/api/auth/login', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/auth/login', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
@@ -242,7 +242,7 @@ export default class App extends Component {
 
     this.setState({ isLoading: true });
 
-    fetch('http://8d71766e66bc.ngrok.io/api/auth/confirmEmail', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/auth/confirmEmail', {
       method: 'POST',
       headers: {
         Accept: 'application/json',

@@ -92,7 +92,7 @@ export default class App extends Component {
     const { navigate } = this.props.navigation;
     this.setState({ isLoading: true }, function () {
       if ((!/[^a-zA-Z]/.test(this.state.name)) && (this.state.name.length > 0)) {
-        fetch('http://8d71766e66bc.ngrok.io/api/auth/updateName', {
+        fetch('http://e1f63cbbbe63.ngrok.io/api/auth/updateName', {
           method: 'POST',
           headers: {
             Accept: 'application/json',

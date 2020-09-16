@@ -155,7 +155,7 @@ export default class App extends Component {
 
   SendCode = () => {
     this.setState({ isLoading: true });
-    fetch('http://8d71766e66bc.ngrok.io/api/auth/sendCode', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/auth/sendCode', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
@@ -199,7 +199,7 @@ export default class App extends Component {
 
   ServerEmailChange = () => {
     this.setState({ isLoading: true });
-    fetch('http://8d71766e66bc.ngrok.io/api/auth/changeEmail', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/auth/changeEmail', {
       method: 'POST',
       headers: {
         Accept: 'application/json',

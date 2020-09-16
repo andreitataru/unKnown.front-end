@@ -105,7 +105,7 @@ export default class ProfileScreen extends React.Component {
   }
 
   GetUserInfo = () => {
-    fetch('http://8d71766e66bc.ngrok.io/api/auth/me', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/auth/me', {
       method: 'GET',
       headers: {
         Accept: 'application/json',
@@ -160,7 +160,7 @@ export default class ProfileScreen extends React.Component {
 
 
   getTodayDate = () => {
-    fetch('http://8d71766e66bc.ngrok.io/api/serverTodayDate', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/serverTodayDate', {
       method: 'GET',
       headers: {
         Accept: 'application/json',

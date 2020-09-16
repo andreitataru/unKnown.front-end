@@ -112,7 +112,7 @@ export default class App extends Component {
   }
 
   getTodayDate = () => {
-    fetch('http://8d71766e66bc.ngrok.io/api/serverTodayDate', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/serverTodayDate', {
       method: 'GET',
       headers: {
         Accept: 'application/json',
@@ -158,7 +158,7 @@ export default class App extends Component {
       if (age >= 16) {
         this.setState({ isLoading: true }, function () {
           if (this.state.dateBirthForSv < this.state.dateTodaySV) {
-            fetch('http://8d71766e66bc.ngrok.io/api/auth/updateDateBirth', {
+            fetch('http://e1f63cbbbe63.ngrok.io/api/auth/updateDateBirth', {
               method: 'POST',
               headers: {
                 Accept: 'application/json',

@@ -77,7 +77,7 @@ export default class MapScreen extends React.Component {
   };
 
   getUsersClose = () => {
-    fetch('http://8d71766e66bc.ngrok.io/api/auth/getUsersClose', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/auth/getUsersClose', {
       method: 'GET',
       headers: {
         Accept: 'application/json',
@@ -167,7 +167,7 @@ export default class MapScreen extends React.Component {
   updatePosition = () => {
     console.log(this.state.location.coords.latitude);
     console.log(this.state.location.coords.longitude);
-    fetch('http://8d71766e66bc.ngrok.io/api/auth/updatePosition', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/auth/updatePosition', {
       method: 'POST',
       headers: {
         Accept: 'application/json',

@@ -106,7 +106,7 @@ export default class App extends Component {
   }
 
   SendApi(message) {
-    fetch('http://8d71766e66bc.ngrok.io/api/auth/SendMessage', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/auth/SendMessage', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
@@ -136,7 +136,7 @@ export default class App extends Component {
   }
 
   GetApi() {
-    fetch('http://8d71766e66bc.ngrok.io/api/auth/GetMessages', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/auth/GetMessages', {
       method: 'POST',
       headers: {
         Accept: 'application/json',

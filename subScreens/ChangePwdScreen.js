@@ -182,7 +182,7 @@ export default class App extends Component {
   }
 
   ServerPassChange = () => {
-    fetch('http://8d71766e66bc.ngrok.io/api/auth/changePassword', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/auth/changePassword', {
       method: 'POST',
       headers: {
         Accept: 'application/json',

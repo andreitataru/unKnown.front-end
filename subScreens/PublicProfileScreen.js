@@ -186,7 +186,7 @@ export default class App extends Component {
     else {
       this.setState({ like: true });
       this.setState({ isLoading: true });
-      fetch('http://8d71766e66bc.ngrok.io/api/auth/Like', {
+      fetch('http://e1f63cbbbe63.ngrok.io/api/auth/Like', {
         method: 'POST',
         headers: {
           Accept: 'application/json',
@@ -212,7 +212,7 @@ export default class App extends Component {
   GetUserData = () => {
     this.setState({ isLoading: true });
 
-    fetch('http://8d71766e66bc.ngrok.io/api/auth/getUser', {
+    fetch('http://e1f63cbbbe63.ngrok.io/api/auth/getUser', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
